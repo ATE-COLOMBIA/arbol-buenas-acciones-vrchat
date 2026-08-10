@@ -1,0 +1,40 @@
+name: Actualizar datos VRChat
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "*/5 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v7
+
+      - name: Descargar últimos registros
+        run: |
+          curl -L --fail --silent --show-error \
+          "https://script.google.com/macros/s/AKfycbwhXp1bDygC2jsq1kYcTX4phAblE7imemXNF2Sbf9eD1PdKPkm8BAJszkvAOxOI2YRTvw/exec?accion=vrchat&limite=23" \
+          -o datos.json
+
+          python -m json.tool datos.json > /dev/null
+
+      - name: Guardar cambios
+        run: |
+          if git diff --quiet -- datos.json; then
+            echo "No hay cambios en datos.json"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add datos.json
+          git commit -m "Actualizar datos VRChat"
+          git push

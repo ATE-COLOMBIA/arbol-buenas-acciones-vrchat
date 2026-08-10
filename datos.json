@@ -1,12 +1,1 @@
-[
-  {
-    "nombre": "Zoe",
-    "avatar": "Zoe.png",
-    "accion": "Ayudé a un compañero a recoger sus materiales."
-  },
-  {
-    "nombre": "Dylan David",
-    "avatar": "Dylan_David.png",
-    "accion": "Yo ayudo a mi mamá a salir a la calle a comprar."
-  }
-]
+[{"nombre":"Dylan David","avatar":"Dylan_David.png","accion":"yo ayuda a mi mamá a salir a la calle a comprar"},{"nombre":"Matias Chaparro","avatar":"Matias_Chaparro.png","accion":"hoy jugué con los amigos"},{"nombre":"Mathias Javier","avatar":"Mathias_Javier.png","accion":"ayudar a los amigos"},{"nombre":"Valentino","avatar":"Valentino.png","accion":"usted descansó barrer en su casa"},{"nombre":"Gabriel","avatar":"Gabriel.png","accion":"yo ayudé a mi mamá Hacer oficio y con mucho cariño"},{"nombre":"Luciana Yate","avatar":"Luciana_Yate.png","accion":"ayudé a mi familia"},{"nombre":"Zoe","avatar":"Zoe.png","accion":"ayudé a organizar la cocina"},{"nombre":"Samuel","avatar":"Samuel.png","accion":"organizar la casa cuando cuando mis papás se van"},{"nombre":"Zara","avatar":"Zara.png","accion":"ayudé a limpiar el piso"},{"nombre":"Salome","avatar":"Salome.png","accion":"ayudando a lavar los platos"},{"nombre":"Emily Sophia","avatar":"Emily_Sophia.png","accion":"ayudé a organizar los juguetes"},{"nombre":"Maria Isabella","avatar":"Maria_Isabella.png","accion":"pues ayuda a mi mamá a limpiar el polvo"},{"nombre":"Zara","avatar":"Zara.png","accion":"recoger todo y recoger mis juguetes"},{"nombre":"Matias Chaparro","avatar":"Matias_Chaparro.png","accion":"hablarle a los amigos que peleen"},{"nombre":"Luciana Yate","avatar":"Luciana_Yate.png","accion":"ayudé a mi familia"},{"nombre":"Valentino","avatar":"Valentino.png","accion":"ayudar a mi papá a tender la cama"},{"nombre":"Jean Carlo","avatar":"Jean_Carlo.png","accion":"yo les ayudo a mis papás a lavar el negocio"},{"nombre":"Andrey","avatar":"Andrey.png","accion":"yo a mi abuela prepara el jugo"},{"nombre":"Juan David","avatar":"Juan_David.png","accion":"ayudar a mi papá a lavar la Loza"},{"nombre":"Emily Brigitte","avatar":"Emily_Brigitte.png","accion":"ayudé a limpiar  mi pieza"},{"nombre":"Zoe","avatar":"Zoe.png","accion":"yo ayudé a  limpiar la cocina"},{"nombre":"Dylan David","avatar":"Dylan_David.png","accion":"ayudé a cocinar"},{"nombre":"Emily Sophia","avatar":"Emily_Sophia.png","accion":"recoger mi juguete mi favorito"}]

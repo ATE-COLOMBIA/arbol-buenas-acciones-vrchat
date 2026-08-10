@@ -1,5 +1,12 @@
-{
-  "nombre": "Mathias Javier",
-  "avatar": "Mathias_Javier.png",
-  "accion": "yo ayuda a mi mamá a limpiar"
-}
+[
+  {
+    "nombre": "Zoe",
+    "avatar": "Zoe.png",
+    "accion": "Ayudé a un compañero a recoger sus materiales."
+  },
+  {
+    "nombre": "Dylan David",
+    "avatar": "Dylan.png",
+    "accion": "Yo ayudo a mi mamá a salir a la calle a comprar."
+  }
+]
